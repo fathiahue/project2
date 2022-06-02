@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="container">
+    <h1>No pain No gain</h1>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="{{asset('/build/carousel/femmesquat.jpg') }}">
+          </div>
+          <div class="swiper-slide">
+            <img src="{{asset('/build/carousel/ketlbel.jpg') }}">
+          </div>
+          <div class="swiper-slide">
+            <img src="{{asset('/build/carousel/halteres.jpg') }}">
+          </div>
+          <div class="swiper-slide">
+            <img src="{{asset('/build/carousel/femme.jpg') }}">
+          </div>
+          <div class="swiper-slide">
+            <img src="{{asset('/build/carousel/femmesquat.jpg') }}">
+          </div>
+          <div class="swiper-slide">
+            <img src="{{asset('/build/carousel/femme.jpg') }}">
+          </div>
+          <div class="swiper-slide">
+            <img src="{{asset('/build/carousel/femmesquat.jpg') }}">
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+    
+{% endblock %}
